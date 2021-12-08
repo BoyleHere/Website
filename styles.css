@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+
+body {
+    background-image: url("bgfinalmp.jpg"); 
+    color: black;
+    font-family: 'Corinthia', cursive;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+
+}
+
+.Profile-Pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 10%;
+    height: auto;
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.profile-name {
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
+    color: black;
+
+}
+
+
+
+.social-icons {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    justify-content: center;
+    font-size: 35px;
+    word-spacing: 3px;
+}
+
+.social-link{
+    color: black;
+    display: inline-block;
+
+}
+
+.social-link + .social-link{
+    margin-left: 1em;
+}
+
+.social-link:hover{
+    transform: translateY(-10px);
+    transition: all 250ms ease;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-top: auto;
+   
+    transition: color 0.5s;
+}
+
+a:hover {
+    color: white;
+}
